@@ -1,3 +1,5 @@
-Class Demo3{
+package script;
+
+class Demo3{
 
 }
