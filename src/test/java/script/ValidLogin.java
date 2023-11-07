@@ -8,7 +8,7 @@ import page.DashboardPage;
 import page.LoginPage;
 
 public class ValidLogin extends BaseTest2{
-
+	
 	@Test(priority = 1)
 	public void testValidLogin()
 	{
@@ -24,5 +24,7 @@ public class ValidLogin extends BaseTest2{
 		boolean result = dashboardPage.verifyDashBoardPageIsDisplayed(wait);
 		Assert.assertTrue(result);
 	}
+	
+
 
 }

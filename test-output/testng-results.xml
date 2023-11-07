@@ -11,7 +11,7 @@
       <![CDATA[Set ITO:7]]>
     </line>
     <line>
-      <![CDATA[Enter the URL:http://www.google.com]]>
+      <![CDATA[Enter the URL:https://opensource-demo.orangehrmlive.com/]]>
     </line>
     <line>
       <![CDATA[Maximize the browser]]>
@@ -20,30 +20,15 @@
       <![CDATA[Set ETO:6]]>
     </line>
     <line>
-      <![CDATA[Rowcount:1]]>
-    </line>
-    <line>
-      <![CDATA[Data:Akshara]]>
-    </line>
-    <line>
-      <![CDATA[test demo...]]>
-    </line>
-    <line>
-      <![CDATA[Cellcount:1]]>
-    </line>
-    <line>
-      <![CDATA[newData:sunday]]>
-    </line>
-    <line>
       <![CDATA[Close the browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-11-07T10:52:50 IST" name="Default suite" finished-at="2023-11-07T10:52:55 IST" duration-ms="4767">
+  <suite started-at="2023-11-07T13:11:25 IST" name="Default suite" finished-at="2023-11-07T13:11:39 IST" duration-ms="14124">
     <groups>
     </groups>
-    <test started-at="2023-11-07T10:52:50 IST" name="Default test" finished-at="2023-11-07T10:52:55 IST" duration-ms="4767">
-      <class name="script.DemoTest">
-        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.DemoTest@436813f3]" started-at="2023-11-07T10:52:50 IST" name="preCondition" finished-at="2023-11-07T10:52:54 IST" duration-ms="3803" status="PASS">
+    <test started-at="2023-11-07T13:11:25 IST" name="Default test" finished-at="2023-11-07T13:11:39 IST" duration-ms="14124">
+      <class name="script.ValidLogin">
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.ValidLogin@436813f3]" started-at="2023-11-07T13:11:25 IST" name="preCondition" finished-at="2023-11-07T13:11:35 IST" duration-ms="9912" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,7 +47,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[http://www.google.com]]>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
               </value>
             </param>
             <param index="4">
@@ -87,7 +72,7 @@
               <![CDATA[Set ITO:7]]>
             </line>
             <line>
-              <![CDATA[Enter the URL:http://www.google.com]]>
+              <![CDATA[Enter the URL:https://opensource-demo.orangehrmlive.com/]]>
             </line>
             <line>
               <![CDATA[Maximize the browser]]>
@@ -97,30 +82,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testDemo()[pri:0, instance:script.DemoTest@436813f3]" started-at="2023-11-07T10:52:54 IST" name="testDemo" finished-at="2023-11-07T10:52:54 IST" duration-ms="728" status="PASS">
+        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin@436813f3]" started-at="2023-11-07T13:11:35 IST" name="testValidLogin" finished-at="2023-11-07T13:11:38 IST" duration-ms="3515" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Rowcount:1]]>
-            </line>
-            <line>
-              <![CDATA[Data:Akshara]]>
-            </line>
-            <line>
-              <![CDATA[test demo...]]>
-            </line>
-            <line>
-              <![CDATA[Cellcount:1]]>
-            </line>
-            <line>
-              <![CDATA[newData:sunday]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- testDemo -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.DemoTest@436813f3]" started-at="2023-11-07T10:52:54 IST" name="postCondition" finished-at="2023-11-07T10:52:55 IST" duration-ms="189" status="PASS">
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@436813f3]" started-at="2023-11-07T13:11:38 IST" name="postCondition" finished-at="2023-11-07T13:11:39 IST" duration-ms="472" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testDemo status=SUCCESS method=DemoTest.testDemo()[pri:0, instance:script.DemoTest@436813f3] output=Rowcount:1]]]>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:1, instance:script.ValidLogin@436813f3] output={null}]]]>
               </value>
             </param>
           </params>
@@ -130,7 +100,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- script.DemoTest -->
+      </class> <!-- script.ValidLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
