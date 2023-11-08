@@ -11,7 +11,7 @@ import page.LoginPage;
 public class ValidLogin extends BaseTest2{
 	
 	
-//		@Test(priority = 1)
+		@Test(priority = 1)
 		public void testValidLogin()
 		{
 			String un = Excel.getData("./data/input.xlsx","ValidLogin", 1, 0);
