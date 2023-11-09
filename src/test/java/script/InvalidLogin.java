@@ -8,6 +8,7 @@ import generic.Excel;
 import page.LoginPage;
 
 public class InvalidLogin extends BaseTest2{
+	
 	@Test(priority = 2)
 	public void testInvalidLogin()
 	{
